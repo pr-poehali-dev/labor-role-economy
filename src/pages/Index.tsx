@@ -5,7 +5,7 @@ const slides = [
     id: 0,
     bg: "#FFF9C4",
     accent: "#F9A825",
-    emoji: "🏗️",
+    num: "01",
     title: "Роль труда людей в экономике",
     subtitle: "Урок для 3 класса",
     type: "cover",
@@ -13,98 +13,98 @@ const slides = [
   {
     id: 1,
     bg: "#FDE68A",
-    accent: "#F59E0B",
-    emoji: "💪",
+    accent: "#D97706",
+    num: "02",
     title: "Что такое труд?",
     type: "text",
     points: [
-      { icon: "👨‍🔧", text: "Труд — это работа, которую человек делает с усилием" },
-      { icon: "🧠", text: "Умственный труд: учиться, думать, придумывать" },
-      { icon: "🔨", text: "Физический труд: строить, готовить, убирать" },
-      { icon: "🙋", text: "Даже уборка комнаты — это тоже труд!" },
+      { num: "А", text: "Труд — это работа, которую человек делает с усилием" },
+      { num: "Б", text: "Умственный труд: учиться, думать, придумывать" },
+      { num: "В", text: "Физический труд: строить, готовить, убирать" },
+      { num: "Г", text: "Даже уборка комнаты — это тоже труд!" },
     ],
   },
   {
     id: 2,
     bg: "#DCFCE7",
-    accent: "#22C55E",
-    emoji: "🌍",
+    accent: "#16A34A",
+    num: "03",
     title: "Зачем нужен труд?",
     type: "text",
     points: [
-      { icon: "🥖", text: "Чтобы было что есть и надевать" },
-      { icon: "🏠", text: "Чтобы строить дома и города" },
-      { icon: "💰", text: "Чтобы зарабатывать деньги" },
-      { icon: "😊", text: "Чтобы чувствовать себя нужным" },
+      { num: "А", text: "Чтобы было что есть и надевать" },
+      { num: "Б", text: "Чтобы строить дома и города" },
+      { num: "В", text: "Чтобы зарабатывать деньги" },
+      { num: "Г", text: "Чтобы чувствовать себя нужным" },
     ],
   },
   {
     id: 3,
     bg: "#DBEAFE",
-    accent: "#3B82F6",
-    emoji: "👷",
+    accent: "#2563EB",
+    num: "04",
     title: "Кто трудится?",
     type: "grid",
     items: [
-      { icon: "👨‍⚕️", label: "Врач" },
-      { icon: "👩‍🏫", label: "Учитель" },
-      { icon: "👨‍🍳", label: "Повар" },
-      { icon: "👩‍🌾", label: "Фермер" },
-      { icon: "👨‍🔧", label: "Механик" },
-      { icon: "👮", label: "Полицейский" },
-      { icon: "🧑‍🚒", label: "Пожарный" },
-      { icon: "👩‍💻", label: "Программист" },
+      "Врач",
+      "Учитель",
+      "Повар",
+      "Фермер",
+      "Механик",
+      "Полицейский",
+      "Пожарный",
+      "Программист",
     ],
     note: "Трудятся все! У каждого своя важная работа.",
   },
   {
     id: 4,
     bg: "#FED7AA",
-    accent: "#F97316",
-    emoji: "🏦",
+    accent: "#EA580C",
+    num: "05",
     title: "Труд и экономика",
     type: "chain",
     steps: [
-      { icon: "👩‍🔬", text: "Человек трудится" },
-      { icon: "💵", text: "Получает зарплату" },
-      { icon: "🛒", text: "Покупает товары" },
-      { icon: "🔄", text: "Деньги идут другим" },
+      "Человек трудится",
+      "Получает зарплату",
+      "Покупает товары",
+      "Деньги идут другим людям",
     ],
     note: "Чем больше людей трудятся — тем богаче страна!",
   },
   {
     id: 5,
     bg: "#E9D5FF",
-    accent: "#A855F7",
-    emoji: "🎁",
+    accent: "#7C3AED",
+    num: "06",
     title: "Результат труда",
     type: "text",
     points: [
-      { icon: "🏭", text: "Товары — хлеб, одежда, машины, игрушки" },
-      { icon: "🎓", text: "Услуги — лечение, обучение, перевозка" },
-      { icon: "🎨", text: "Творчество — книги, музыка, картины" },
-      { icon: "🌟", text: "Всё вокруг нас — результат чьего-то труда!" },
+      { num: "А", text: "Товары — хлеб, одежда, машины, игрушки" },
+      { num: "Б", text: "Услуги — лечение, обучение, перевозка" },
+      { num: "В", text: "Творчество — книги, музыка, картины" },
+      { num: "Г", text: "Всё вокруг нас — результат чьего-то труда!" },
     ],
   },
   {
     id: 6,
     bg: "#FECDD3",
-    accent: "#F43F5E",
-    emoji: "⭐",
+    accent: "#E11D48",
+    num: "07",
     title: "Почему труд важен?",
     type: "text",
     points: [
-      { icon: "🙌", text: "Ты можешь помогать семье и стране" },
-      { icon: "📈", text: "Труд делает тебя умелее и сильнее" },
-      { icon: "💛", text: "За хороший труд тебя будут уважать" },
-      { icon: "🚀", text: "Труд помогает мечтам стать реальностью" },
+      { num: "А", text: "Ты можешь помогать семье и стране" },
+      { num: "Б", text: "Труд делает тебя умелее и сильнее" },
+      { num: "В", text: "За хороший труд тебя будут уважать" },
+      { num: "Г", text: "Труд помогает мечтам стать реальностью" },
     ],
   },
   {
     id: 7,
     bg: "#FFF9C4",
     accent: "#F9A825",
-    emoji: "🌈",
+    num: "08",
     title: "Запомни главное!",
     type: "final",
     points: [
@@ -128,101 +128,130 @@ export default function Index() {
   return (
     <div
       className="min-h-screen flex flex-col items-center justify-center p-4"
-      style={{ background: "#f5f5f0", fontFamily: "'Golos Text', sans-serif" }}
+      style={{ background: "#EFEFEA", fontFamily: "'Golos Text', sans-serif" }}
     >
       <div
-        className="w-full max-w-2xl rounded-3xl shadow-2xl overflow-hidden"
-        style={{ background: slide.bg, border: `4px solid ${slide.accent}`, minHeight: 480 }}
-        key={slide.id}
+        className="w-full max-w-2xl rounded-3xl shadow-2xl overflow-hidden transition-all duration-300"
+        style={{ background: slide.bg, border: `4px solid ${slide.accent}`, minHeight: 500 }}
       >
-        {/* Slide header */}
-        <div
-          className="px-8 pt-8 pb-4 flex items-center gap-4"
-        >
-          <span style={{ fontSize: 56 }}>{slide.emoji}</span>
+        {/* Header */}
+        <div className="px-8 pt-8 pb-5 flex items-start gap-5">
+          <div
+            className="rounded-2xl flex items-center justify-center font-black shrink-0"
+            style={{
+              background: slide.accent,
+              color: "#fff",
+              width: 64,
+              height: 64,
+              fontSize: 22,
+              letterSpacing: "-1px",
+            }}
+          >
+            {slide.num}
+          </div>
           <div>
-            <div className="text-xs font-bold uppercase tracking-widest mb-1" style={{ color: slide.accent }}>
+            <div
+              className="text-xs font-bold uppercase tracking-widest mb-1"
+              style={{ color: slide.accent }}
+            >
               Слайд {current + 1} из {total}
             </div>
             <h1
               className="font-black leading-tight"
-              style={{ color: "#1C1917", fontSize: slide.type === "cover" ? 34 : 28 }}
+              style={{ color: "#1C1917", fontSize: slide.type === "cover" ? 32 : 26 }}
             >
               {slide.title}
             </h1>
           </div>
         </div>
 
-        {/* Slide body */}
+        {/* Body */}
         <div className="px-8 pb-8">
 
           {/* COVER */}
           {slide.type === "cover" && (
-            <div className="text-center py-8">
-              <p className="text-2xl font-semibold text-gray-600 mb-6">{slide.subtitle}</p>
-              <div className="flex justify-center gap-3 flex-wrap">
-                {["💪", "🏦", "🌍", "🎁"].map((e) => (
-                  <span key={e} style={{ fontSize: 48 }}>{e}</span>
+            <div className="text-center py-6">
+              <p className="text-2xl font-semibold text-gray-600 mb-8">{slide.subtitle}</p>
+              <div className="flex justify-center gap-4">
+                {["Труд", "Деньги", "Экономика", "Страна"].map((word) => (
+                  <div
+                    key={word}
+                    className="rounded-2xl px-4 py-2 font-bold text-sm"
+                    style={{ background: "rgba(255,255,255,0.7)", color: slide.accent }}
+                  >
+                    {word}
+                  </div>
                 ))}
               </div>
-              <p className="mt-6 text-gray-500 text-lg">Нажми «Вперёд» чтобы начать</p>
+              <p className="mt-8 text-gray-500 text-lg font-medium">
+                Нажми «Вперёд», чтобы начать
+              </p>
             </div>
           )}
 
-          {/* TEXT with points */}
+          {/* TEXT */}
           {slide.type === "text" && (
-            <div className="flex flex-col gap-3 mt-2">
+            <div className="flex flex-col gap-3">
               {(slide.points ?? []).map((p, i) => (
                 <div
                   key={i}
                   className="flex items-center gap-4 rounded-2xl px-4 py-3"
                   style={{ background: "rgba(255,255,255,0.6)" }}
                 >
-                  <span style={{ fontSize: 36 }}>{p.icon}</span>
-                  <span className="text-lg font-semibold" style={{ color: "#1C1917" }}>{p.text}</span>
+                  <div
+                    className="rounded-xl flex items-center justify-center font-black shrink-0 text-white"
+                    style={{ background: slide.accent, width: 36, height: 36, fontSize: 14 }}
+                  >
+                    {(p as { num: string; text: string }).num}
+                  </div>
+                  <span className="text-lg font-semibold" style={{ color: "#1C1917" }}>
+                    {(p as { num: string; text: string }).text}
+                  </span>
                 </div>
               ))}
             </div>
           )}
 
-          {/* GRID of professions */}
+          {/* GRID */}
           {slide.type === "grid" && (
             <>
-              <div className="grid grid-cols-4 gap-3 mt-2">
-                {(slide.items ?? []).map((item, i) => (
+              <div className="grid grid-cols-4 gap-3">
+                {(slide.items ?? []).map((label, i) => (
                   <div
                     key={i}
-                    className="flex flex-col items-center rounded-2xl py-3 px-2"
-                    style={{ background: "rgba(255,255,255,0.6)" }}
+                    className="flex flex-col items-center justify-center rounded-2xl py-4 px-2 text-center font-bold text-sm"
+                    style={{ background: "rgba(255,255,255,0.6)", color: "#1C1917", minHeight: 64 }}
                   >
-                    <span style={{ fontSize: 40 }}>{item.icon}</span>
-                    <span className="text-sm font-bold mt-1 text-center" style={{ color: "#1C1917" }}>{item.label}</span>
+                    {label}
                   </div>
                 ))}
               </div>
               {slide.note && (
-                <p className="mt-4 text-center text-lg font-bold" style={{ color: slide.accent }}>{slide.note}</p>
+                <p className="mt-4 text-center text-lg font-bold" style={{ color: slide.accent }}>
+                  {slide.note}
+                </p>
               )}
             </>
           )}
 
-          {/* CHAIN steps */}
+          {/* CHAIN */}
           {slide.type === "chain" && (
             <>
-              <div className="flex flex-col gap-2 mt-2">
+              <div className="flex flex-col gap-2">
                 {(slide.steps ?? []).map((step, i) => (
-                  <div key={i} className="flex items-center gap-3">
+                  <div key={i} className="flex items-center gap-4">
                     <div
-                      className="w-9 h-9 rounded-full flex items-center justify-center font-black text-white shrink-0"
+                      className="w-10 h-10 rounded-full flex items-center justify-center font-black text-white shrink-0"
                       style={{ background: slide.accent, fontSize: 16 }}
                     >
                       {i + 1}
                     </div>
-                    <span style={{ fontSize: 32 }}>{step.icon}</span>
-                    <span className="text-lg font-semibold" style={{ color: "#1C1917" }}>{step.text}</span>
-                    {i < (slide.steps ?? []).length - 1 && (
-                      <span className="ml-auto text-2xl">↓</span>
-                    )}
+                    <div
+                      className="flex-1 rounded-2xl px-4 py-3 font-semibold text-lg"
+                      style={{ background: "rgba(255,255,255,0.6)", color: "#1C1917" }}
+                    >
+                      {step}
+                    </div>
                   </div>
                 ))}
               </div>
@@ -239,21 +268,26 @@ export default function Index() {
 
           {/* FINAL */}
           {slide.type === "final" && (
-            <div className="flex flex-col gap-3 mt-2">
+            <div className="flex flex-col gap-3">
               {(slide.points as string[]).map((p, i) => (
                 <div
                   key={i}
-                  className="flex items-center gap-3 rounded-2xl px-4 py-3"
+                  className="flex items-center gap-4 rounded-2xl px-4 py-3"
                   style={{ background: "rgba(255,255,255,0.6)" }}
                 >
-                  <span style={{ fontSize: 28 }}>{"⭐"}</span>
+                  <div
+                    className="w-8 h-8 rounded-lg flex items-center justify-center font-black text-white shrink-0"
+                    style={{ background: slide.accent, fontSize: 14 }}
+                  >
+                    {i + 1}
+                  </div>
                   <span className="text-lg font-bold" style={{ color: "#1C1917" }}>{p}</span>
                 </div>
               ))}
               {slide.quote && (
                 <div
-                  className="mt-2 rounded-2xl px-4 py-3 text-center text-base font-semibold"
-                  style={{ background: "rgba(255,255,255,0.5)", color: "#78350F" }}
+                  className="mt-2 rounded-2xl px-5 py-4 text-center text-base font-semibold"
+                  style={{ background: "rgba(255,255,255,0.5)", color: "#78350F", fontStyle: "italic" }}
                 >
                   {slide.quote}
                 </div>
@@ -264,22 +298,21 @@ export default function Index() {
       </div>
 
       {/* Navigation */}
-      <div className="flex items-center gap-6 mt-6">
+      <div className="flex items-center gap-5 mt-6">
         <button
           onClick={prev}
           disabled={current === 0}
-          className="rounded-2xl px-6 py-3 text-lg font-bold transition-all"
+          className="rounded-2xl px-7 py-3 text-base font-bold transition-all"
           style={{
-            background: current === 0 ? "#e5e7eb" : slide.accent,
-            color: current === 0 ? "#9ca3af" : "#fff",
+            background: current === 0 ? "#E5E7EB" : slide.accent,
+            color: current === 0 ? "#9CA3AF" : "#fff",
             cursor: current === 0 ? "not-allowed" : "pointer",
             border: "none",
           }}
         >
-          ← Назад
+          Назад
         </button>
 
-        {/* Dots */}
         <div className="flex gap-2">
           {slides.map((_, i) => (
             <button
@@ -289,7 +322,7 @@ export default function Index() {
                 width: i === current ? 28 : 10,
                 height: 10,
                 borderRadius: 99,
-                background: i === current ? slide.accent : "#d1d5db",
+                background: i === current ? slide.accent : "#D1D5DB",
                 border: "none",
                 cursor: "pointer",
                 transition: "all 0.3s",
@@ -302,15 +335,15 @@ export default function Index() {
         <button
           onClick={next}
           disabled={current === total - 1}
-          className="rounded-2xl px-6 py-3 text-lg font-bold transition-all"
+          className="rounded-2xl px-7 py-3 text-base font-bold transition-all"
           style={{
-            background: current === total - 1 ? "#e5e7eb" : slide.accent,
-            color: current === total - 1 ? "#9ca3af" : "#fff",
+            background: current === total - 1 ? "#E5E7EB" : slide.accent,
+            color: current === total - 1 ? "#9CA3AF" : "#fff",
             cursor: current === total - 1 ? "not-allowed" : "pointer",
             border: "none",
           }}
         >
-          Вперёд →
+          Вперёд
         </button>
       </div>
     </div>
